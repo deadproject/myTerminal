@@ -1,4 +1,4 @@
-![Terminal](/Terminal.svg)
+![Terminal](/Terminal.png)
 
 # myTerminal 
 
