@@ -1,3 +1,5 @@
+![Terminal](./docs/source/_static/Terminal.svg)
+
 # myTerminal 
 
 In this repository, I've included my terminal configuration files to improve and personalize my terminal experience across different operating systems. The configurations include visual enhancements, command-line tools, and customized prompts.
