@@ -1,4 +1,4 @@
-![Terminal](https://github.com/deadproject/myTerminal/blob/main/Terminal.svg)
+![Terminal](/Terminal.svg)
 
 # myTerminal 
 
