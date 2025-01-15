@@ -37,7 +37,6 @@ and paste my bashrc profile into the file.
 ### Starship Configuration
 
 ```bash
-mkdir -p ~/.config
 nvim ~/.config/starship.toml
 ```
 and paste my Starship profile into the file.
@@ -45,7 +44,6 @@ and paste my Starship profile into the file.
 ### Neofetch Configuration
 
 ```bash
-mkdir -p ~/.config/neofetch
 nvim ~/.config/neofetch/config.conf
 ```
 and paste my Neofetch profile into the file.
