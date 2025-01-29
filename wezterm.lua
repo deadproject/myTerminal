@@ -1,4 +1,3 @@
--- wezterm config
 local wezterm = require 'wezterm'
 
 local function format_tab_title(tab, tabs, panes, config, hover, max_width)
@@ -10,7 +9,7 @@ local config = {
         window_close_confirmation = "NeverPrompt",
         window_decorations = "RESIZE",
         font_size = 15,
-        window_background_opacity = 0.55,
+        window_background_opacity = 0.75,
         initial_cols = 95,
         initial_rows = 23,
         skip_close_confirmation_for_processes_named = { },
@@ -35,4 +34,3 @@ local config = {
 wezterm.on('format-tab-title', format_tab_title)
 
 return config
-
