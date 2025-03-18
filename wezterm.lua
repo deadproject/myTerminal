@@ -30,7 +30,6 @@ local config = {
     },
     cursor_blink_rate = 0,
 }
-
 wezterm.on('format-tab-title', format_tab_title)
 
 return config
