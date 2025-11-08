@@ -6,7 +6,7 @@
         }
     },
     "display": {
-        "separator": " 󰑃 "
+        "separator": " - "
     },
     "modules": [
         "break",
@@ -17,55 +17,52 @@
         },
         {
             "type": "command",
-            "key": "│ ├ INSTALL AGE",
+            "key": "├ INSTALL AGE",
             "keyColor": "yellow",
             "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
         },
         {
-            "type": "terminalfont",
-            "key": "│ ├ TERMINAL FONT",
-            "keyColor": "blue"
-        },
-        {
             "type": "terminal",
-            "key": "│ └ TERMINAL",
+            "key": "└ TERMINAL",
             "keyColor": "blue",
             "format": "{1}"
         },
+        "break",
         {
-            "type": "host",
+            "type": "command",
             "key": "󰌢 SYSTEM",
-            "keyColor": "green"
+            "keyColor": "green",
+            "text": "echo 'Asus Prime H510M-A'"
         },
         {
             "type": "cpu",
-            "key": "│ ├󰻠 CPU",
+            "key": "├󰻠 CPU",
             "keyColor": "green",
-            "text": "cat /proc/cpuinfo | grep 'model name' | head -1 | awk -F ': ' '{print $2}' | sed 's/ (.*)//'"
+            "format": "{1}",
+            "text": "lscpu | grep 'Model name' | awk -F ': ' '{print $2}' | sed 's/(R)//g; s/(TM)//g; s/@.*//g; s/CPU //g; s/  / /g'"
         },
         {
             "type": "gpu",
-            "key": "│ ├󰻑 GPU",
+            "key": "├󰻑 GPU",
             "format": "{2}",
             "keyColor": "green"
         },
         {
             "type": "display",
-            "key": "│ ├󰍹 DISPLAY",
+            "key": "├󰍹 DISPLAY",
             "keyColor": "green",
             "compactType": "original-with-refresh-rate"
         },
         {
             "type": "memory",
-            "key": "│ ├󰾆 MEMORY",
+            "key": "├󰾆 MEMORY",
             "keyColor": "green"
         },
         {
             "type": "uptime",
-            "key": "│ ├󰅐 UPTIME",
+            "key": "└󰅐 UPTIME",
             "keyColor": "green"
         },
         "break"
     ]
 }
-
