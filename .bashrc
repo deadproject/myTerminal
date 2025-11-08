@@ -445,3 +445,4 @@ fi
 
 # Update PATH
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"
