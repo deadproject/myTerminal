@@ -4,17 +4,9 @@
 
 In this repository, I've included my terminal configuration files to improve and personalize my terminal experience across different operating systems. The configurations include visual enhancements, command-line tools, and customized prompts.
 
-## Features ✨
-- **fastfetch**: A command-line system information tool. 🖥️
-- **WezTerm**: A GPU-accelerated cross-platform terminal emulator and multiplexer. 🚀
-- **bashrc**: A customized `.bashrc` file for the bash shell. 🐚
-- **Starship**: The minimal, blazing-fast, and infinitely customizable prompt for any shell. 🌟
-
 ## Installation 🛠️
 
 ### WezTerm 
-
-#### Linux 🐧
 
 To install WezTerm on Linux via Flatpak, use the following command:
 ```bash
