@@ -32,7 +32,7 @@
             "type": "command",
             "key": "󰌢 SYSTEM",
             "keyColor": "green",
-            "text": "echo 'Asus Prime H510M-A'"
+            "keys": ["model"]
         },
         {
             "type": "cpu",
